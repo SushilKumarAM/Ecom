@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
    
@@ -10,7 +8,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-<jsp:include page="header.jsp"></jsp:include>
+<%@ include file="Header.jsp" %>
 <body>
 <div style=width:100%;height:550px>
 
@@ -23,15 +21,15 @@
 <div class="carousel-inner" align="center">
 <div class="item active">
 <img class="img-rounded" class="img-responsive center-block"
-src="resources/EcomImg1.jpg" style=height:500px;width:100%>
+src="resources/images/EcomImg1.jpg" style=height:500px;width:100%>
 </div>
 <div class="item">
 <img class="img-rounded" class="img-responsive center-block"
-src="resources/EcomImg2.jpg" style=height:500px;width:100%>
+src="resources/images/EcomImg2.jpg" style=height:500px;width:100%>
 </div>
 <div class="item">
 <img class="img-rounded" class="img-responsive center-block"
-src="resources/EcomImg3.jpg" style=height:500px;width:100%>
+src="resources/images/EcomImg3.jpg" style=height:500px;width:100%>
 </div>
 
 </div>
